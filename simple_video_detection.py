@@ -118,3 +118,4 @@ if __name__ == "__main__":
     
     print(f"\n✅ 完成！")
     print(f"📁 已儲存 {saved_count} 張圖片到: {output_path.absolute()}")
+
