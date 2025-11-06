@@ -1,0 +1,7 @@
+my_models/
+output_frames/
+__pycache__/
+runs/
+test/
+train/
+valid/

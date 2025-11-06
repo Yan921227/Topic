@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['backswing', 'impact']
+
+roboflow:
+  workspace: man-dttkk
+  project: tennist-dot0j
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/man-dttkk/tennist-dot0j/dataset/1
