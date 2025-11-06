@@ -9,16 +9,16 @@ import torch
 
 # ============= 設定區 =============
 VIDEO_PATH = "C:\\Users\\User\\Desktop\\IMG_1159.mp4"              # 輸入影片路徑
-MODEL_PATH = "runs\\detect\\train\\weights\\best.pt"  # 模型路徑
-OUTPUT_DIR = "output_frames\\20251106n_model"                # 輸出目錄
+MODEL_PATH = "runs\\detect\\train2\\weights\\best.pt"  # 模型路徑
+OUTPUT_DIR = "output_frames\\20251106s_model"                # 輸出目錄
 
 # 統一信心度（用於初步過濾，建議設低一點）
 BASE_CONFIDENCE = 0.25
 
 # 針對不同類別設定各自的信心度閾值
 CLASS_CONFIDENCE = {
-    0: 0.86,  # backswing（後擺動作）
-    1: 0.62,  # impact（擊球瞬間）
+    0: 0.85,  # backswing（後擺動作）
+    1: 0.74,  # impact（擊球瞬間）
 }
 
 SAVE_INTERVAL = 1                           # 每隔幾幀存一張 (1=每幀都存)

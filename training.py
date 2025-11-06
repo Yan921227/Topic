@@ -5,11 +5,11 @@ from pathlib import Path
 if __name__ == "__main__":
     # ============= 設定區 =============
     SAVE_DIR = "my_models"                    # 👈 儲存目錄
-    MODEL_NAME = "20251106n_model.pt"         # 👈 模型檔名（可以自己改）
+    MODEL_NAME = "20251106s_model.pt"         # 👈 模型檔名（可以自己改）
     # ==================================
     
     # 選你要的模型（n / s / m / l / x）
-    model = YOLO("yolo11n.pt")
+    model = YOLO("yolo11s.pt")
 
     # 開始訓練
     results = model.train(
